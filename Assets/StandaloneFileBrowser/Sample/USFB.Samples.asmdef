@@ -1,7 +1,7 @@
 {
-    "name": "SFB.Samples",
+    "name": "USFB.Samples",
     "references": [
-        "SFB.Runtime"
+        "USFB.Runtime"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
