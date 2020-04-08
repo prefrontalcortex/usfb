@@ -1,3 +1,10 @@
+# 1.0.0 (2020-04-08)
+
+
+### Features
+
+* Modify for UPM ([4964bd9](https://github.com/adrenak/UnityStandaloneFileBrowser/commit/4964bd9ce93fe6b8938a2d30d7bec5da9d896a32))
+
 # Unity Standalone File Browser
 
 A simple wrapper for native file dialogs on Windows/Mac/Linux.

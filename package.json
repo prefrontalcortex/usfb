@@ -1,6 +1,6 @@
 {
 	"name": "com.gkngkc.sfb",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"displayName": "Standalone File Browser",
 	"description": "A native file browser for unity standalone platforms.",
 	"unity": "2018.4",
@@ -8,8 +8,6 @@
 		"name": "Gökhan Gökçe",
 		"email": "gkngkc@gmail.com"
 	},
-	"dependencies": {
-	},
-	"scopedRegistries": [
-	]
+	"dependencies": {},
+	"scopedRegistries": []
 }
