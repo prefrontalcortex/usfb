@@ -1,0 +1,15 @@
+{
+    "name": "USFB.Samples",
+    "references": [
+        "USFB.Runtime",
+        "USFB.Runtime.Common"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
