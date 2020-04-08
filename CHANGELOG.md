@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/adrenak/usfb/compare/v1.1.2...v1.1.3) (2020-04-08)
+
+
+### Bug Fixes
+
+* Delete package-lock.json ([12a290d](https://github.com/adrenak/usfb/commit/12a290d8639f93e2c0848360f714cd485fca0529))
+
 ## [1.1.2](https://github.com/adrenak/usfb/compare/v1.1.1...v1.1.2) (2020-04-08)
 
 
