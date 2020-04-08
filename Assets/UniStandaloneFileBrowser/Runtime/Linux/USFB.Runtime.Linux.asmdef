@@ -1,12 +1,13 @@
 {
-    "name": "USFB.Windows.Runtime",
+    "name": "USFB.Runtime.Linux",
     "references": [
-        "USFB.Common.Runtime"
+        "USFB.Runtime.Common"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
-        "WindowsStandalone32",
-        "WindowsStandalone64"
+        "LinuxStandalone32",
+        "LinuxStandalone64",
+        "LinuxStandaloneUniversal"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

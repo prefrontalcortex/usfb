@@ -1,4 +1,4 @@
-﻿namespace SFB {
+﻿namespace USFB {
     public struct ExtensionFilter {
         public string Name;
         public string[] Extensions;

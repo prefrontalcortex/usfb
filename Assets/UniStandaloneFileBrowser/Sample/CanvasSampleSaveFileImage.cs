@@ -4,14 +4,28 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using SFB;
+using USFB;
 
 [RequireComponent(typeof(Button))]
-public class CanvasSampleSaveFileText : MonoBehaviour, IPointerDownHandler {
+public class CanvasSampleSaveFileImage : MonoBehaviour, IPointerDownHandler {
     public Text output;
 
-    // Sample text data
-    private string _data = "Example text created by StandaloneFileBrowser";
+    private byte[] _textureBytes;
+
+    void Awake() {
+        // Create red texture
+        var width = 100;
+        var height = 100;
+        Texture2D tex = new Texture2D(width, height, TextureFormat.RGB24, false);
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < height; j++) {
+                tex.SetPixel(i, j, Color.red);
+            }
+        }
+        tex.Apply();
+        _textureBytes = tex.EncodeToPNG();
+        UnityEngine.Object.Destroy(tex);
+    }
 
 #if UNITY_WEBGL && !UNITY_EDITOR
     //
@@ -22,8 +36,7 @@ public class CanvasSampleSaveFileText : MonoBehaviour, IPointerDownHandler {
 
     // Broser plugin should be called in OnPointerDown.
     public void OnPointerDown(PointerEventData eventData) {
-        var bytes = Encoding.UTF8.GetBytes(_data);
-        DownloadFile(gameObject.name, "OnFileDownload", "sample.txt", bytes, bytes.Length);
+        DownloadFile(gameObject.name, "OnFileDownload", "sample.png", _textureBytes, _textureBytes.Length);
     }
 
     // Called from browser
@@ -43,9 +56,9 @@ public class CanvasSampleSaveFileText : MonoBehaviour, IPointerDownHandler {
     }
 
     public void OnClick() {
-        var path = StandaloneFileBrowser.SaveFilePanel("Title", "", "sample", "txt");
+        var path = StandaloneFileBrowser.SaveFilePanel("Title", "", "sample", "png");
         if (!string.IsNullOrEmpty(path)) {
-            File.WriteAllText(path, _data);
+            File.WriteAllBytes(path, _textureBytes);
         }
     }
 #endif

@@ -1,6 +1,6 @@
 using System;
 
-namespace SFB {
+namespace USFB {
     public class StandaloneFileBrowser {
         private static IStandaloneFileBrowser _platformWrapper = null;
 

@@ -1,14 +1,11 @@
 {
-    "name": "USFB.Linux.Runtime",
+    "name": "USFB.Samples",
     "references": [
-        "USFB.Common.Runtime"
+        "USFB.Runtime",
+        "USFB.Runtime.Common"
     ],
     "optionalUnityReferences": [],
-    "includePlatforms": [
-        "LinuxStandalone32",
-        "LinuxStandalone64",
-        "LinuxStandaloneUniversal"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
