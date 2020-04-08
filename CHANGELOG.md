@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/adrenak/usfb/compare/v1.0.0...v1.1.0) (2020-04-08)
+
+
+### Features
+
+* Change name from sfb to usfb ([04669e1](https://github.com/adrenak/usfb/commit/04669e1663ea86e1103ecb07ebbafc3ec7ea5445))
+
 # 1.0.0 (2020-04-08)
 
 
