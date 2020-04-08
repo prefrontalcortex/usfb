@@ -1,12 +1,6 @@
 {
-    "name": "USFB.Runtime",
-    "references": [
-        "USFB.Editor.Runtime",
-        "USFB.Linux.Runtime",
-        "USFB.Mac.Runtime",
-        "USFB.Windows.Runtime",
-        "USFB.Common.Runtime"
-    ],
+    "name": "USFB.Common.Runtime",
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor",
@@ -18,7 +12,7 @@
         "WindowsStandalone64"
     ],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
