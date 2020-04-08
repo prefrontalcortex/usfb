@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/adrenak/usfb/compare/v1.1.0...v1.1.1) (2020-04-08)
+
+
+### Bug Fixes
+
+* Reorganise source for platform dependent compilation. Experimental... ([6c0df62](https://github.com/adrenak/usfb/commit/6c0df62a73985a532d4dabefeaa9e94c671ab0d7))
+
 # [1.1.0](https://github.com/adrenak/usfb/compare/v1.0.0...v1.1.0) (2020-04-08)
 
 
