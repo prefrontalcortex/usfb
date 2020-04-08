@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/adrenak/usfb/compare/v1.1.1...v1.1.2) (2020-04-08)
+
+
+### Bug Fixes
+
+* Get Runtime and Runtime Common asmdefs to run on any supported ([3f0cd4b](https://github.com/adrenak/usfb/commit/3f0cd4bc23033aa3a3f8cc4844643adaa213d02c))
+
 ## [1.1.1](https://github.com/adrenak/usfb/compare/v1.1.0...v1.1.1) (2020-04-08)
 
 
