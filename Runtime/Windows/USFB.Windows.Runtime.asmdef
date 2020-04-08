@@ -1,19 +1,10 @@
 {
-    "name": "USFB.Runtime",
+    "name": "USFB.Windows.Runtime",
     "references": [
-        "USFB.Editor.Runtime",
-        "USFB.Linux.Runtime",
-        "USFB.Mac.Runtime",
-        "USFB.Windows.Runtime",
         "USFB.Common.Runtime"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
-        "Editor",
-        "LinuxStandalone32",
-        "LinuxStandalone64",
-        "LinuxStandaloneUniversal",
-        "macOSStandalone",
         "WindowsStandalone32",
         "WindowsStandalone64"
     ],
