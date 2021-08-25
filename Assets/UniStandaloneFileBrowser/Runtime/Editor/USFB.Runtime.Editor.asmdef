@@ -1,16 +1,21 @@
 {
     "name": "USFB.Runtime.Editor",
+    "rootNamespace": "",
     "references": [
         "USFB.Runtime.Common"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Ookii.Dialogs.dll",
+        "System.Windows.Forms.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

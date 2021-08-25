@@ -1,16 +1,18 @@
 {
     "name": "USFB.Runtime.Mac",
+    "rootNamespace": "",
     "references": [
         "USFB.Runtime.Common"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "macOSStandalone"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

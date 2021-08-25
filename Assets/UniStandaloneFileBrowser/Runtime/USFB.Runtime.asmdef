@@ -1,5 +1,6 @@
 {
     "name": "USFB.Runtime",
+    "rootNamespace": "",
     "references": [
         "USFB.Runtime.Common",
         "USFB.Runtime.Editor",
@@ -7,12 +8,13 @@
         "USFB.Runtime.Mac",
         "USFB.Runtime.Windows"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

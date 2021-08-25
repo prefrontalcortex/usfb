@@ -1,17 +1,22 @@
 {
     "name": "USFB.Runtime.Windows",
+    "rootNamespace": "",
     "references": [
         "USFB.Runtime.Common"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "WindowsStandalone32",
         "WindowsStandalone64"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": []
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Ookii.Dialogs.dll",
+        "System.Windows.Forms.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
